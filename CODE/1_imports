@@ -28,3 +28,5 @@ from sklearn.model_selection import StratifiedKFold
 import random
 from tensorflow.keras import layers
 from google.colab import drive
+
+drive.mount('/content/drive')
