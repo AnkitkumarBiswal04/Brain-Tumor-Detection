@@ -28,13 +28,3 @@ from sklearn.model_selection import StratifiedKFold
 import random
 from tensorflow.keras import layers
 from google.colab import drive
-
-drive.mount('/content/drive')
-
-output:-
-Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
-
-!ls drive
-
-output:-
-MyDrive
