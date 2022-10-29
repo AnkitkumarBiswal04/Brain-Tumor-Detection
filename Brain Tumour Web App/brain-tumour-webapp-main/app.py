@@ -22,7 +22,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="-1"
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = "C:/Users/sksha/Desktop/Brain Tumour/brain-tumour-webapp-main/models/modelres50.h5"
+MODEL_PATH = "C:/Users/Arunkumarbiswal/Desktop/Brain Tumour Web App/brain-tumour-webapp-main/models/modelres50.h5"
 
 #Load your trained model
 model = load_model(MODEL_PATH)
